@@ -25,7 +25,7 @@ public class UserTestCase {
 		user = (User) context.getBean(User.class);
 		System.out.println(user);
 
-		userDao = (UserDao) context.getBean("userDaoImpl");
+		userDao = (UserDao) context.getBean("userDaoImpl");//default Name of the repository
 		System.out.println(userDao);
 
 	}
