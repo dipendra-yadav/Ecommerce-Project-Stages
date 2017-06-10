@@ -1,0 +1,3 @@
+com\niit\domain\User.class
+com\niit\daoImpl\UserDaoImpl.class
+com\niit\dao\UserDao.class
