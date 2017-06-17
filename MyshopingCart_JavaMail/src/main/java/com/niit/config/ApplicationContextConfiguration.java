@@ -94,7 +94,7 @@ public class ApplicationContextConfiguration {
 		//set emailId
 		mailsender.setUsername("dipendra.eng@gmail.com");
 		//set emailPassword
-		mailsender.setPassword("gregarious_85");
+		mailsender.setPassword("");
 
 		Properties prop = mailsender.getJavaMailProperties();
 		prop.put("mail.smtp.host", "smtp.gmail.com");
